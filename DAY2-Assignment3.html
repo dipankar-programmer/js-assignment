@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <h1>this is the third question</h1>
+    </head>
+    <body>
+        <h1>display the date in various manner</h1>
+        
+        <script>
+            
+            var today = new Date();
+
+            var date1 = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+            var date2 = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
+            var date3 = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+            var date4 = (today.getMonth()+1)+'/'+today.getDate()+'/'+today.getFullYear();
+
+            document.write(date1)
+            document.write("<br />");
+            document.write(date2)
+            document.write("<br />");
+            document.write(date3)
+            document.write("<br />");
+            document.write(date4)
+            document.write("<br />");
+
+
+        </script>
+    </body>
+</html>
